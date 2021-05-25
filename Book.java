@@ -18,12 +18,13 @@ public class Book
     /**
      * Constructor to make the book object
      */
-    public Book(int id, String nm, String auth, int qty)
+    public Book(int id, String nm, String auth, int qty, String img)
     {
         this.id = id;
         this.name = nm;
         this.author = auth;
         this.quantity = qty;
+        this.image = img;
     }
     
     /**
